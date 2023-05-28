@@ -20,5 +20,4 @@ Este proyecto fue desarrollado como parte del Reto 1 del programa Alura Oracle O
 
 ## Licencia
 
-Este proyecto está bajo la 
-# EncripDesencrip
+Este proyecto está bajo la [GNU General Public License v3.0](https://www.gnu.org/licenses/why-not-lgpl.html)
