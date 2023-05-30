@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      property="og:image"
+      content="https://drive.google.com/uc?export=view&id=170rvUMMSnLCw-Y6Me9h2xEsj269ZTEWo"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encriptador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://drive.google.com/uc?export=view&id=170rvUMMSnLCw-Y6Me9h2xEsj269ZTEWo"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="input">
+        <header>
+          <div>
+            <h1>Encriptador</h1>
+          </div>
+        </header>
+        <div class="input-text">
+          <textarea
+            id="input-text"
+            placeholder="Ingresa el texto aquí..."
+          ></textarea>
+        </div>
+        <div class="botonesInt">
+          <button id="encrypt-btn">Encriptar</button>
+          <button id="decrypt-btn">Desencriptar</button>
+        </div>
+      </div>
+      <div class="res">
+       
+        <div id="output-div">
+          <img src="./img/Muñeco.png" id="munneco" />
+          <h2 class="nada">Ningún mensaje fue encontrado...</h2>
+          <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+        </div>
+        <div id="botonesOup">
+          <button id="copy-btn" style="display: none;" >Copiar</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./scripts/script.js"></script>
+</html>
